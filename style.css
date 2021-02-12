@@ -1,569 +1,569 @@
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            
-            body {
-                font-family: 'Montserrat', sans-serif;
-            }
-            
-            .clearfix:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            .padding-site {
-                padding-left: 98px;
-                padding-right: 98px;
-            }
-            
-            .container {
-                width: 1366px;
-                margin: 0 auto;
-            }
-            
-            .slider {
-                height: 800px;
-                background-image: url(img/slider-img.jpg);
-                position: relative;
-            }
-            
-            .header {
-                padding-top: 63px;
-            }
-            
-            .menu {
-                float: right;
-            }
-            
-            .menu-list {
-                list-style-type: none;
-                float: left;
-            }
-            
-            .menu-link {
-                color: #8c8c8c;
-                font-size: 14px;
-                font-weight: 300;
-                text-transform: uppercase;
-                padding: 10px 13px;
-                text-decoration: none;
-            }
-            
-            .menu-link:hover {
-                color: #212121;
-            }
-            
-            .menu-link-active {
-                color: #212121;
-                font-weight: 700;
-                letter-spacing: 1.4px;
-                border-bottom: 3px solid #212121;
-            }
-            
-            .slider-text {
-                margin-top: 283px;
-            }
-            
-            .slider-trending {
-                color: #43a047;
-                font-size: 18px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .slider-h2 {
-                color: #212121;
-                font-size: 62px;
-                font-weight: 100;
-                text-transform: uppercase;
-            }
-            
-            .slider-content {
-                color: #6c6c6c;
-                font-size: 14px;
-                font-weight: 300;
-                width: 458px;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                line-height: 24px;
-            }
-            
-            .button {
-                color: #212121;
-                font-size: 18px;
-                font-weight: 700;
-                text-transform: uppercase;
-                box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-                border-radius: 23px;
-                background-color: #ffffff;
-                width: 212px;
-                height: 45px;
-                line-height: 45px;
-                text-align: center;
-                display: inline-block;
-                text-decoration: none;
-                letter-spacing: 3.6px;
-            }
-            
-            .pagination {
-                position: absolute;
-                width: 1170px;
-                bottom: 19px;
-                text-align: center;
-            }
-            
-            .circle {
-                width: 30px;
-                height: 30px;
-                display: inline-block;
-                background-color: #c7c7c7;
-                border-radius: 50%;
-                margin: 5px;
-            }
-            
-            .circle-active {
-                height: 40px;
-                width: 40px;
-                background-color: #212121;
-                margin-bottom: 0px;
-            }
-            
-            .circle:hover {
-                background-color: #212121;
-            }
-            /*Контент*/
-            
-            .content-fon {
-                position: absolute;
-                height: 4930px;
-                background-image: url(img/back-content.svg);
-                clear: both;
-            }
-            
-            .content-foto-list {
-                list-style-type: none
-            }
-            
-            .featured {
-                color: #212121;
-                font-size: 36px;
-                font-weight: 700;
-            }
-            
-            .new {
-                color: #6c6c6c;
-                font-size: 36px;
-                font-weight: 700;
-            }
-            
-            .explore {
-                color: #212121;
-                font-size: 18px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .button1 {
-                width: 48px;
-                height: 48px;
-                box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-                border-radius: 24px;
-                background-color: #ffffff;
-            }
-            
-            .slider-h5 {
-                color: #212121;
-                font-size: 22px;
-                font-weight: 700;
-                position: absolute;
-                margin-top: 350px;
-                margin-left: 55px
-            }
-            
-            .slider-content1 {
-                color: #6c6c6c;
-                font-size: 14px;
-                font-weight: 300;
-            }
-            
-            .slider-content2 {
-                color: #6c6c6c;
-                font-size: 14px;
-                font-weight: 300;
-            }
-            
-            .content-pagination {
-                display: block;
-                position: relative;
-                top: 120px;
-                left: 9px;
-                float: left
-            }
-            
-            .content-explore {
-                display: block;
-                position: absolute;
-                margin-top: 138px;
-                margin-left: 1000px
-            }
-            
-            .content-foto-list {
-                float: left;
-                height: 270px;
-                width: 270px;
-                margin: 11px;
-                position: relative;
-                top: 192px;
-                right: 15px;
-            }
-            
-            .content-foto {
-                clear: both
-            }
-            
-            .knopka {
-                position: absolute;
-                margin-top: 290px;
-                margin-left: 100px
-            }
-            
-            .strelka {
-                position: absolute;
-                margin-top: 307px;
-                margin-left: 125px
-            }
-            
-            .slider-content1 {
-                position: absolute;
-                margin-top: 380px;
-                margin-left: 25px;
-            }
-            
-            .slider-content2 {
-                position: absolute;
-                margin-top: 380px;
-                margin-left: 47px;
-            }
-            
-            .promo {
-                display: inline-block;
-                margin-top: 300px;
-            }
-            
-            .promo-text-poziciya {
-                position: absolute;
-            }
-            
-            .promo-text {
-                position: absolute;
-                bottom: 221px;
-                left: 51px;
-            }
-            
-            .promo-text1 {
-                position: absolute;
-                bottom: 221px;
-                left: 734px;
-            }
-            
-            .exclusive {
-                color: #1e88e5;
-                font-size: 18px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .slider-h3 {
-                color: #212121;
-                font-size: 36px;
-                font-weight: 700;
-            }
-            
-            .slider-products-h3 {
-                color: #212121;
-                font-size: 36px;
-                font-weight: 700;
-                position: absolute;
-                margin-top: 119px
-            }
-            
-            .content-foto1 {
-                position: absolute;
-            }
-            
-            .content-foto-list1 {
-                float: left;
-                list-style-type: none;
-                width: 370px;
-                height: 370px;
-                display: inline-block;
-                margin: 8px;
-                position: relative;
-                top: 218px;
-            }
-            
-            .fon {
-                height: 800px;
-                width: 1366px;
-                background-image: url(img/slider.jpg);
-                position: absolute;
-                margin-top: 1108px;
-                right: 0px;
-                float: left
-            }
-            
-            .slider-trending-red {
-                color: #e53935;
-                font-size: 18px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .slider-text1 {
-                position: absolute;
-                margin-top: 287px;
-            }
-            
-            .pagination-hot {
-                position: absolute;
-                text-align: center;
-                right: 623px;
-                top: 740px;
-            }
-            
-            .content-foto2 {
-                position: absolute;
-                margin-top: 2028px;
-                float: left;
-            }
-            
-            .big-foto {
-                float: left;
-                height: 570px;
-                width: 570px;
-            }
-            
-            .list-mini {
-                display: inline-block;
-                float: left;
-                position: relative;
-                left: 600px;
-                margin:
-            }
-            
-            .list-mini1 {
-                display: inline-block;
-                float: left;
-                position: relative;
-                left: 630px;
-                margin:
-            }
-            
-            .list-mini2 {
-                display: inline-block;
-                float: left;
-                position: relative;
-                left: 600px;
-                top: 30px;
-            }
-            
-            .list-mini3 {
-                display: inline-block;
-                float: left;
-                position: relative;
-                left: 630px;
-                top: 30px;
-            }
-            
-            .content-foto-list2 {
-                list-style-type: none;
-            }
-            
-            .mini {
-                position: absolute;
-                float: left;
-            }
-            
-            .hot-red-text {
-                position: absolute;
-                margin-top: 601px;
-                float: left;
-            }
-            
-            .slider2 {
-                position: relative;
-                width: 1366px;
-                height: 516px;
-                background-image: url(img/back-img.jpg);
-                top: 2718px;
-            }
-            
-            .reklama-text-poziciya {
-                position: absolute;
-                margin-top: 125px;
-                margin-left: 99px;
-            }
-            
-            .text-mobile {
-                color: #6c6c6c;
-                font-size: 18px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .zagolovok-reklama {
-                color: #212121;
-                font-size: 62px;
-                font-weight: 100;
-                text-transform: uppercase;
-            }
-            
-            .text-reklama {
-                color: #6c6c6c;
-                font-size: 22px;
-                font-weight: 300;
-            }
-            
-            .fon-footer {
-                position: relative;
-                width: 1366px;
-                height: 384px;
-                background-color: #f7f7f7;
-                top: 4526px;
-            }
-            
-            .footer {}
-            
-            .ssilki {
-                list-style-type: none
-            }
-            
-            .footer-h4 {
-                color: #6c6c6c;
-                font-size: 18px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .text-footer {
-                color: #212121;
-                font-size: 14px;
-                font-weight: 300px;
-            }
-            
-            .email {
-                color: #212121;
-                font-size: 14px;
-                font-weight: 300px;
-                text-decoration: none;
-                position: absolute;
-                float: left;
-                margin-top: 50px
-            }
-            
-            .usef {
-                color: #212121;
-                font-size: 14px;
-                font-weight: 700;
-                text-transform: uppercase;
-                text-decoration: none;
-            }
-            
-            .your-email {
-                width: 370px;
-                height: 48px;
-                border: 1px solid #d9dee1;
-                background-color: #ffffff;
-                float: left;
-                margin-top: 26px;
-            }
-            
-            input[placeholder="your email address"]:focus {
-                color: #6c6c6c;
-                font-size: 14px;
-                font-weight: 300;
-            }
-            
-            .copi {
-                color: #6c6c6c;
-                font-size: 12px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .cooki {
-                color: #6c6c6c;
-                font-size: 12px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
-            
-            .contact-us {
-                float: left;
-                position: absolute;
-                margin-top: 120px;
-                margin-left: 99px;
-            }
-            
-            .useful-information {
-                float: left;
-                position: absolute;
-                margin-top: 120px;
-                margin-left: 399px
-            }
-            
-            .touch {
-                float: left;
-                position: absolute;
-                margin-top: 120px;
-                margin-left: 899px;
-            }
-            
-            .copi {
-                float: left;
-                position: absolute;
-                margin-top: 336px;
-                margin-left: 98px;
-            }
-            
-            .social {
-                float: left;
-                position: absolute;
-                margin-top: 326px;
-                margin-left: 618px;
-            }
-            
-            .cooki {
-                float: left;
-                position: absolute;
-                margin-top: 336px;
-                margin-left: 919px;
-            }
-            
-            .info {
-                float: left;
-                position: relative;
-                left: 210px;
-                top: 25px
-            }
-            
-            .info1 {
-                float: left;
-                position: absolute;
-                margin-top: 25px;
-            }
-            
-            .poziciya-touch {
-                position: relative;
-                float: left;
-                margin-top: 24px
-            }
-            
-            .fly {
-                float: left;
-                position: relative;
-                margin-top: 45px;
-                right: 35px
-            }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle-active {
+    height: 40px;
+    width: 40px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+/*Контент*/
+
+.content-fon {
+    position: absolute;
+    height: 4930px;
+    background-image: url(img/back-content.svg);
+    clear: both;
+}
+
+.content-foto-list {
+    list-style-type: none
+}
+
+.featured {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.new {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.explore {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button1 {
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+}
+
+.slider-h5 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 55px
+}
+
+.slider-content1 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.slider-content2 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.content-pagination {
+    display: block;
+    position: relative;
+    top: 120px;
+    left: 9px;
+    float: left
+}
+
+.content-explore {
+    display: block;
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 1000px
+}
+
+.content-foto-list {
+    float: left;
+    height: 270px;
+    width: 270px;
+    margin: 11px;
+    position: relative;
+    top: 192px;
+    right: 15px;
+}
+
+.content-foto {
+    clear: both
+}
+
+.knopka {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 100px
+}
+
+.strelka {
+    position: absolute;
+    margin-top: 307px;
+    margin-left: 125px
+}
+
+.slider-content1 {
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 25px;
+}
+
+.slider-content2 {
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 47px;
+}
+
+.promo {
+    display: inline-block;
+    margin-top: 300px;
+}
+
+.promo-text-poziciya {
+    position: absolute;
+}
+
+.promo-text {
+    position: absolute;
+    bottom: 221px;
+    left: 51px;
+}
+
+.promo-text1 {
+    position: absolute;
+    bottom: 221px;
+    left: 734px;
+}
+
+.exclusive {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h3 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.slider-products-h3 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 119px
+}
+
+.content-foto1 {
+    position: absolute;
+}
+
+.content-foto-list1 {
+    float: left;
+    list-style-type: none;
+    width: 370px;
+    height: 370px;
+    display: inline-block;
+    margin: 8px;
+    position: relative;
+    top: 218px;
+}
+
+.fon {
+    height: 800px;
+    width: 1366px;
+    background-image: url(img/slider.jpg);
+    position: absolute;
+    margin-top: 1108px;
+    right: 0px;
+    float: left
+}
+
+.slider-trending-red {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-text1 {
+    position: absolute;
+    margin-top: 287px;
+}
+
+.pagination-hot {
+    position: absolute;
+    text-align: center;
+    right: 623px;
+    top: 740px;
+}
+
+.content-foto2 {
+    position: absolute;
+    margin-top: 2028px;
+    float: left;
+}
+
+.big-foto {
+    float: left;
+    height: 570px;
+    width: 570px;
+}
+
+.list-mini {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 600px;
+    margin:
+}
+
+.list-mini1 {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 630px;
+    margin:
+}
+
+.list-mini2 {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 600px;
+    top: 30px;
+}
+
+.list-mini3 {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 630px;
+    top: 30px;
+}
+
+.content-foto-list2 {
+    list-style-type: none;
+}
+
+.mini {
+    position: absolute;
+    float: left;
+}
+
+.hot-red-text {
+    position: absolute;
+    margin-top: 601px;
+    float: left;
+}
+
+.slider2 {
+    position: relative;
+    width: 1366px;
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+    top: 2718px;
+}
+
+.reklama-text-poziciya {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 99px;
+}
+
+.text-mobile {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.zagolovok-reklama {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.text-reklama {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.fon-footer {
+    position: relative;
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+    top: 4526px;
+}
+
+.footer {}
+
+.ssilki {
+    list-style-type: none
+}
+
+.footer-h4 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-footer {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.email {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300px;
+    text-decoration: none;
+    position: absolute;
+    float: left;
+    margin-top: 50px
+}
+
+.usef {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.your-email {
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 26px;
+}
+
+input[placeholder="your email address"]:focus {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copi {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cooki {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-us {
+    float: left;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 99px;
+}
+
+.useful-information {
+    float: left;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 399px
+}
+
+.touch {
+    float: left;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 899px;
+}
+
+.copi {
+    float: left;
+    position: absolute;
+    margin-top: 336px;
+    margin-left: 98px;
+}
+
+.social {
+    float: left;
+    position: absolute;
+    margin-top: 326px;
+    margin-left: 618px;
+}
+
+.cooki {
+    float: left;
+    position: absolute;
+    margin-top: 336px;
+    margin-left: 919px;
+}
+
+.info {
+    float: left;
+    position: relative;
+    left: 210px;
+    top: 25px
+}
+
+.info1 {
+    float: left;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.poziciya-touch {
+    position: relative;
+    float: left;
+    margin-top: 24px
+}
+
+.fly {
+    float: left;
+    position: relative;
+    margin-top: 45px;
+    right: 35px
+}
