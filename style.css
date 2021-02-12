@@ -7,11 +7,11 @@ body {
     margin: 0 auto;
 }
 
-.clearfix:after {
+/* .clearfix:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 .padding-site {
     padding-left: 98px;
@@ -135,6 +135,8 @@ body {
     height: 4930px;
     background-image: url(img/back-content.svg);
     clear: both;
+    padding-left: 98px;
+    padding-right: 98px;
 }
 
 .content-foto-list {
