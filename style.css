@@ -1,10 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+.margin {
+    width: 1366px;
+    margin: 0 auto;
 }
 
 .clearfix:after {
@@ -16,11 +16,6 @@ body {
 .padding-site {
     padding-left: 98px;
     padding-right: 98px;
-}
-
-.container {
-    width: 1366px;
-    margin: 0 auto;
 }
 
 .slider {
@@ -350,7 +345,6 @@ body {
     float: left;
     position: relative;
     left: 600px;
-    margin:
 }
 
 .list-mini1 {
@@ -358,7 +352,6 @@ body {
     float: left;
     position: relative;
     left: 630px;
-    margin:
 }
 
 .list-mini2 {
@@ -433,8 +426,6 @@ body {
     background-color: #f7f7f7;
     top: 4526px;
 }
-
-.footer {}
 
 .ssilki {
     list-style-type: none
